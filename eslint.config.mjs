@@ -56,10 +56,9 @@ const eslintConfig = [
     rules: {
       'react-hooks/rules-of-hooks': 'error',
       'react-hooks/exhaustive-deps': 'warn',
-      'prettier/prettier': 'error',
+      'prettier/prettier': ['error', { singleQuote: true }],
       'no-console': 'warn',
       'no-var': 'error',
-      
     },
   },
   {
